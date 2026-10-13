@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage / Main Portal -->
+    <url>
+        <loc>https://venturerushtech.com/</loc>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/vrLogoBlue.png</image:loc>
+            <image:title>VentureRush Tech Official Brand Logo</image:title>
+            <image:caption>Next-Generation Web, System and AI Development Agency</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/tm1.png</image:loc>
+            <image:title>Shafiq Aiman - Founder of VentureRush Tech</image:title>
+            <image:caption>Founder and Tech Strategist of VentureRush Tech</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Portfolio 1: MK Rimba Camp Park -->
+    <url>
+        <loc>https://venturerushtech.com/portfolio-mk-rimba.html</loc>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/portfolio1.png</image:loc>
+            <image:title>MK Rimba Camp Park Multi-Device Platform</image:title>
+            <image:caption>Custom AI Chatbot, Campsite Management System and Agent Commission Tracker</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p1Design.png</image:loc>
+            <image:title>MK Rimba Camp Park Website Design Architecture</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p1Color.png</image:loc>
+            <image:title>MK Rimba Camp Park Brand Color Codes and Palette</image:title>
+        </image:image>
+    </url>
+
+    <!-- Portfolio 2: Q13DYNAMIC -->
+    <url>
+        <loc>https://venturerushtech.com/portfolio-q13dynamic.html</loc>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/portfolio2.png</image:loc>
+            <image:title>Q13DYNAMIC Pyrotechnics E-Commerce Catalog</image:title>
+            <image:caption>Real-time Order Tracking, Agent Management Portal and Fireworks Business Platform</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p2Design.png</image:loc>
+            <image:title>Q13DYNAMIC Website Design Architecture</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p2Color.png</image:loc>
+            <image:title>Q13DYNAMIC Brand Color Codes and Palette</image:title>
+        </image:image>
+    </url>
+
+    <!-- Portfolio 3: South Wave Watersport Adventure -->
+    <url>
+        <loc>https://venturerushtech.com/portfolio-southwave.html</loc>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/portfolio3.png</image:loc>
+            <image:title>South Wave Watersport Adventure Marina Platform</image:title>
+            <image:caption>Customer Order Hub, Watersport Management System and Rental Timer System</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p3Design.png</image:loc>
+            <image:title>South Wave Watersport Adventure Website Design Architecture</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p3Color.png</image:loc>
+            <image:title>South Wave Watersport Brand Color Codes and Palette</image:title>
+        </image:image>
+    </url>
+
+    <!-- Portfolio 4: Bayu Seafood -->
+    <url>
+        <loc>https://venturerushtech.com/portfolio-bayu-seafood.html</loc>
+        <lastmod>2026-10-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/portfolio4.png</image:loc>
+            <image:title>Bayu Seafood Lakeside Dining and Banquet Platform</image:title>
+            <image:caption>Interactive VR Tour, Scroll Driven Animation and Campaign Content Management System</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p4Design.png</image:loc>
+            <image:title>Bayu Seafood Website Design Architecture</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/p4Color.png</image:loc>
+            <image:title>Bayu Seafood Brand Color Codes and Palette</image:title>
+        </image:image>
+    </url>
+
+</urlset>
