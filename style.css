@@ -566,6 +566,8 @@ a {
     align-items: center;
     gap: 0.85rem;
     text-decoration: none;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .nav-logo-img {
@@ -574,6 +576,7 @@ a {
     object-fit: contain;
     transition: var(--transition-smooth);
     filter: drop-shadow(0 2px 8px rgba(2, 132, 199, 0.2));
+    flex-shrink: 0;
 }
 
 .brand-logo:hover .nav-logo-img {
@@ -586,6 +589,10 @@ a {
     font-weight: 800;
     color: var(--text-primary);
     letter-spacing: -0.01em;
+    white-space: nowrap;
+    word-break: keep-all;
+    display: inline-flex;
+    align-items: baseline;
 }
 
 .nav-menu {
@@ -1919,6 +1926,240 @@ a {
 }
 
 /* ==========================================================================
+   Customer Testimonials Section - Chat Bubble & Right-to-Left Animation
+   ========================================================================== */
+
+.testimonials-section {
+    padding: 6rem 0 5rem;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, transparent 0%, rgba(2, 132, 199, 0.03) 50%, transparent 100%);
+}
+
+.testimonials-marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 2.5rem 0 1.5rem;
+    margin-top: 1.5rem;
+    mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 7%, black 93%, transparent 100%);
+}
+
+.testimonials-marquee-track {
+    display: flex;
+    align-items: stretch;
+    width: max-content;
+    gap: 2rem;
+    animation: testimonialsSlideLeft 36s linear infinite;
+    will-change: transform;
+}
+
+.testimonials-marquee-container:hover .testimonials-marquee-track {
+    animation-play-state: paused;
+}
+
+/* Continuous Animation from Right to Left */
+@keyframes testimonialsSlideLeft {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.testimonial-card {
+    width: 390px;
+    max-width: 90vw;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+    cursor: default;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Chat Bubble Container */
+.testimonial-chatbubble {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    border-top: 1px solid var(--glass-border-highlight);
+    border-radius: var(--radius-lg);
+    padding: 1.8rem 1.8rem 1.6rem;
+    position: relative;
+    box-shadow: var(--glass-shadow);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    transition: var(--transition-smooth);
+}
+
+.testimonial-card:hover .testimonial-chatbubble {
+    border-color: var(--accent-cyan);
+    box-shadow: var(--glass-shadow-hover);
+}
+
+/* Chat Bubble Speech Pointer Arrow */
+.chatbubble-tail {
+    position: absolute;
+    bottom: -11px;
+    left: 36px;
+    width: 20px;
+    height: 20px;
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border-right: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+    transform: rotate(45deg);
+    z-index: 1;
+    transition: border-color var(--transition-fast);
+}
+
+.testimonial-card:hover .chatbubble-tail {
+    border-right-color: var(--accent-cyan);
+    border-bottom-color: var(--accent-cyan);
+}
+
+.chatbubble-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.95rem;
+}
+
+.chatbubble-rating {
+    display: flex;
+    gap: 3.5px;
+    color: #f59e0b;
+    font-size: 0.9rem;
+}
+
+.chatbubble-quote-icon {
+    font-size: 1.3rem;
+    color: var(--accent-cyan);
+    opacity: 0.35;
+    transition: opacity 0.3s ease;
+}
+
+.testimonial-card:hover .chatbubble-quote-icon {
+    opacity: 0.85;
+}
+
+.chatbubble-text {
+    font-size: 0.94rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    margin-bottom: 1.25rem;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    align-self: flex-start;
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radius-full);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.22);
+    color: var(--accent-cyan);
+    margin-top: auto;
+    position: relative;
+    z-index: 2;
+}
+
+[data-theme="dark"] .testimonial-tag {
+    background: rgba(0, 242, 254, 0.08);
+    border-color: rgba(0, 242, 254, 0.25);
+    color: var(--accent-cyan);
+}
+
+/* Customer Author Details below Chat Bubble */
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1.35rem;
+    padding-left: 0.8rem;
+}
+
+.author-avatar-wrap {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+}
+
+.author-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    border: 2px solid var(--accent-cyan);
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+    transition: transform 0.35s ease;
+}
+
+.testimonial-card:hover .author-avatar-img {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.5);
+}
+
+.verified-check {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: var(--accent-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .verified-check {
+    background: #0f172a;
+    color: var(--accent-cyan);
+}
+
+.author-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: 0.3px;
+    margin-bottom: 0.15rem;
+}
+
+.author-role {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent-cyan);
+}
+
+/* ==========================================================================
    Team Section
    ========================================================================== */
 
@@ -3031,6 +3272,19 @@ a {
         padding: 1.8rem;
     }
 
+    /* Testimonials */
+    .testimonial-card {
+        width: 310px;
+    }
+
+    .testimonial-chatbubble {
+        padding: 1.4rem 1.4rem 1.2rem;
+    }
+
+    .chatbubble-text {
+        font-size: 0.88rem;
+    }
+
     /* Team */
     .team-grid {
         grid-template-columns: 1fr;
@@ -3105,10 +3359,40 @@ a {
     }
 }
 
-/* Mobile Navigation Drawer (max-width: 850px) */
+/* Mobile Navigation Drawer & Navbar Layout (max-width: 850px) */
 @media (max-width: 850px) {
+    .nav-container {
+        padding: 0 1.25rem;
+    }
+
+    .brand-logo {
+        gap: 0.65rem;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .nav-logo-img {
+        height: 34px;
+        flex-shrink: 0;
+    }
+
+    .brand-name {
+        font-size: 1.25rem;
+        white-space: nowrap !important;
+        word-break: keep-all !important;
+        display: inline-flex;
+        align-items: baseline;
+    }
+
+    .nav-actions {
+        gap: 0.55rem;
+        flex-shrink: 0;
+    }
+
     .menu-toggle {
-        display: block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .nav-menu {
@@ -3148,6 +3432,73 @@ a {
 
     .nav-cta-btn {
         display: none;
+    }
+}
+
+/* Extra-Small Mobile Screens Navbar Fix (max-width: 480px) */
+@media (max-width: 480px) {
+    .nav-container {
+        padding: 0 0.85rem;
+    }
+
+    .brand-logo {
+        gap: 0.5rem;
+    }
+
+    .nav-logo-img {
+        height: 29px;
+    }
+
+    .brand-name {
+        font-size: clamp(1rem, 4.4vw, 1.15rem);
+        white-space: nowrap !important;
+        word-break: keep-all !important;
+        letter-spacing: -0.02em;
+    }
+
+    .nav-actions {
+        gap: 0.4rem;
+    }
+
+    /* On smaller mobile devices, hide text label ('Dark' / 'Light') so it becomes a sleek compact icon button, preventing any navbar crowding or wrapping */
+    .theme-toggle-btn {
+        padding: 0.45rem 0.55rem;
+        font-size: 0.82rem;
+    }
+
+    .theme-btn-label {
+        display: none !important;
+    }
+
+    .theme-toggle-btn i {
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    .menu-toggle {
+        padding: 0.45rem 0.6rem;
+        font-size: 1rem;
+    }
+}
+
+/* Ultra-Compact Mobile Screens (max-width: 360px) */
+@media (max-width: 360px) {
+    .nav-container {
+        padding: 0 0.6rem;
+    }
+
+    .brand-logo {
+        gap: 0.4rem;
+    }
+
+    .nav-logo-img {
+        height: 26px;
+    }
+
+    .brand-name {
+        font-size: 0.96rem;
+        white-space: nowrap !important;
+        word-break: keep-all !important;
     }
 }
 
