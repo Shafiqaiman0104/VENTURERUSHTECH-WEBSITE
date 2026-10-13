@@ -19,6 +19,26 @@
             <image:title>Shafiq Aiman - Founder of VentureRush Tech</image:title>
             <image:caption>Founder and Tech Strategist of VentureRush Tech</image:caption>
         </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/cust1.jpg</image:loc>
+            <image:title>Mr. Maduk - Founder MK Rimba Camp Park Client Testimonial</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/cust2.jpg</image:loc>
+            <image:title>Aiman Akram - Founder Q13DYNAMIC Client Testimonial</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/cust3.jpg</image:loc>
+            <image:title>Daniel - Manager Attic by RAW Client Testimonial</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/cust4.jpg</image:loc>
+            <image:title>Azlina Arsat - Manager South Wave Client Testimonial</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://venturerushtech.com/image/cust5.jpg</image:loc>
+            <image:title>Mr. Aliff - Head of Marketing MFJ Capital Client Testimonial</image:title>
+        </image:image>
     </url>
 
     <!-- Portfolio 1: MK Rimba Camp Park -->
