@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Official XML Sitemap
-Sitemap: https://venturerushtech.com/sitemap.xml
