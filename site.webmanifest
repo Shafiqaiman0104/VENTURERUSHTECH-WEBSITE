@@ -1,0 +1,21 @@
+{
+  "name": "VentureRush Tech — #1 Website & Custom System Agency in Johor Bahru",
+  "short_name": "VentureRush Tech",
+  "description": "Officially SSM-registered Malaysian website & custom system agency (SSM Reg. No. 202603024939 / 003816983-W) serving Johor Bahru, Malaysia & Singapore.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0A1633",
+  "icons": [
+    {
+      "src": "image/vrLogoBlue.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
