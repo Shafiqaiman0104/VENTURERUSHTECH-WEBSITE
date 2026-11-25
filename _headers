@@ -1,0 +1,29 @@
+/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://venturerushtech.com data: blob:; media-src 'self' https://venturerushtech.com; connect-src 'self' https://sgachecker.venturerushtech.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://wa.me https://sgachecker.venturerushtech.com;
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/styles.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/subpages.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/app.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/subpages.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/image/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.xml
+  Cache-Control: public, max-age=86400
+
+/*.txt
+  Cache-Control: public, max-age=86400

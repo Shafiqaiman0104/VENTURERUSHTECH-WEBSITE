@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VentureRush Tech — Case Studies &amp; Web Engineering Updates</title>
+    <link>https://venturerushtech.com/</link>
+    <description>Production websites, custom web systems, AI chatbots, and SEO/AEO/GEO engineering insights from VentureRush Tech at Puteri Harbour, Johor Bahru.</description>
+    <language>en-my</language>
+    <lastBuildDate>Wed, 25 Nov 2026 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://venturerushtech.com/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>VentureRush SGA Checker — Free Online SEO, AEO &amp; GEO Website Audit Tool</title>
+      <link>https://sgachecker.venturerushtech.com/</link>
+      <guid isPermaLink="true">https://sgachecker.venturerushtech.com/</guid>
+      <pubDate>Wed, 25 Nov 2026 10:00:00 +0800</pubDate>
+      <description>Run unlimited, sign-up-free SEO, AEO, and GEO website diagnostics in one click with VentureRush SGA Checker.</description>
+    </item>
+
+    <item>
+      <title>Case Study: MK Rimba Camp Park — Booking Engine &amp; 24/7 AI Chatbot</title>
+      <link>https://venturerushtech.com/portfolio-mk-rimba.html</link>
+      <guid isPermaLink="true">https://venturerushtech.com/portfolio-mk-rimba.html</guid>
+      <pubDate>Tue, 24 Nov 2026 09:00:00 +0800</pubDate>
+      <description>How VentureRush Tech automated campsite bookings and reduced manual WhatsApp work by 85% with a 24/7 custom AI chatbot and agent commission portal.</description>
+    </item>
+
+    <item>
+      <title>Case Study: Q13DYNAMIC — High-Concurrency Catalog &amp; Order Tracker</title>
+      <link>https://venturerushtech.com/portfolio-q13dynamic.html</link>
+      <guid isPermaLink="true">https://venturerushtech.com/portfolio-q13dynamic.html</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0800</pubDate>
+      <description>Handling midnight festive traffic surges with zero downtime, HD product videos, live order tracking, and a wholesale distributor portal.</description>
+    </item>
+
+    <item>
+      <title>Case Study: South Wave Watersport — Puteri Harbour Fleet &amp; Rental Timer</title>
+      <link>https://venturerushtech.com/portfolio-southwave.html</link>
+      <guid isPermaLink="true">https://venturerushtech.com/portfolio-southwave.html</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0800</pubDate>
+      <description>Eliminating dockside queues at Puteri Harbour Marina with a Customer Order Hub, live fleet dashboard, and automated rental countdown timers (+200% advance bookings).</description>
+    </item>
+
+    <item>
+      <title>Case Study: Bayu Seafood Dining — 360° VR Tour &amp; VIP Ballroom CMS</title>
+      <link>https://venturerushtech.com/portfolio-bayu-seafood.html</link>
+      <guid isPermaLink="true">https://venturerushtech.com/portfolio-bayu-seafood.html</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0800</pubDate>
+      <description>Driving +45% ballroom bookings and 3x VIP room enquiries with an interactive 360-degree virtual tour, scroll-driven animation, and campaign CMS.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,78 @@
+# =====================================================================
+# VentureRush Tech (https://venturerushtech.com)
+# Complete SEO + AEO + GEO Crawler Policy
+# Targeting: Johor Bahru, Malaysia & Singapore
+# =====================================================================
+
+# Standard Search Engines
+User-agent: *
+Allow: /
+Disallow: /scratch/
+
+# Major Search Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI Answer Engines & LLM Crawlers (Explicitly Welcomed for AEO & GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# XML Sitemap, RSS Feed & LLM Knowledge Discovery
+Sitemap: https://venturerushtech.com/sitemap.xml
+
+# GEO / LLM Structured Knowledge Files & Feeds:
+# RSS 2.0 Feed: https://venturerushtech.com/feed.xml
+# Summary Index: https://venturerushtech.com/llms.txt
+# Complete Knowledge Base: https://venturerushtech.com/llms-full.txt
+# IndexNow Verification Key: https://venturerushtech.com/e404c6b4d13a41ada10ea733ab6cd5a2.txt

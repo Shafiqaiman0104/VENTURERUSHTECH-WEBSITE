@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://venturerushtech.com/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://venturerushtech.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-SG" href="https://venturerushtech.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://venturerushtech.com/"/>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/vrLogoBlue.png</image:loc>
+      <image:title>VentureRush Tech Official Logo — Puteri Harbour, Johor Bahru</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/about.webp</image:loc>
+      <image:title>VentureRush Tech — Conversion Websites &amp; Custom Systems</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/founder1.webp</image:loc>
+      <image:title>Shafiq Aiman — Founder &amp; Chief Technology Architect at VentureRush Tech</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/portfolio5.webp</image:loc>
+      <image:title>White &amp; Black Aquasports Multi-Branch Lake Recreation Booking Platform</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/about.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/portfolio-mk-rimba.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/portfolio1.webp</image:loc>
+      <image:title>MK Rimba Camp Park — Booking Portal &amp; 24/7 AI Chatbot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/p1Design.webp</image:loc>
+      <image:title>MK Rimba Camp Park Website Design Architecture</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/portfolio-q13dynamic.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/portfolio2.webp</image:loc>
+      <image:title>Q13DYNAMIC — High-Concurrency E-Commerce &amp; Order Tracking Platform</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/p2Design.webp</image:loc>
+      <image:title>Q13DYNAMIC Website Design Architecture</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/portfolio-southwave.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/portfolio3.webp</image:loc>
+      <image:title>South Wave Watersport — Puteri Harbour Booking Hub &amp; Rental Timer System</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/p3Design.webp</image:loc>
+      <image:title>South Wave Watersport Website Design Architecture</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/portfolio-bayu-seafood.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/portfolio4.webp</image:loc>
+      <image:title>Bayu Seafood Dining — Interactive 360 VR Tour &amp; VIP Ballroom Portal</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venturerushtech.com/image/p4Design.webp</image:loc>
+      <image:title>Bayu Seafood Dining Website Design Architecture</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/privacy-policy.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/terms-of-service.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/feed.xml</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/llms.txt</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://venturerushtech.com/llms-full.txt</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
